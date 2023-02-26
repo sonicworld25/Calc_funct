@@ -18,24 +18,12 @@ def largest(lst=None):
                     i = i + 1
 
 
-
-
-
-
-                # t_max = c[i]
-                # new_list = new_list.append(temp)
-                # lst[0] = lst[i]
-                # i = i + 1
-
-
-
                 else:
                     c = temp_1
                     c = t[i]
 
                     print("The last value now is", c)
-                # lst[0] = lst[i]
-                # new_list = new_list.append(temp)
+
                     i = i + 1
         print("The highest number is ",temp)
         return (temp)
